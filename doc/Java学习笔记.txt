@@ -1,0 +1,45 @@
+Java
+    JDK(Java Develop ToolKit)-[Java开发工具包]
+        开发工具集
+        安装后会有两套JRE
+        
+    JRE(Java Runtime Environmnet)-[Java运行时环境]
+        Java运行的基础
+        
+    JVM(Java Vitual Machine)-[Java虚拟机]
+        程序运行的虚拟机环境
+        Bin目录下面的server和client是jvm.dll文件所在
+        
+    JIT(Java In Time)-[即时编译]
+        Java 即时编译器，JVM的一部分，属于内核部分
+        
+    OOM(OutOfMemoryError)-[内存溢出]
+    
+    堆(Heap)-[Java内存区域名称]
+        新域(Young Generation)
+            Eden
+                新对象创建的地方
+            两个Survivor
+        就域(Old Generation)
+        永久域(Perm Generation)
+        Virtual
+            保留
+Java核心语法
+    类: 包、引入、类、变量、方法、注释
+    修饰符: 讲解类
+    abstract(抽象类)
+        没有具体对象的概念了类，方法必须由子类来实现，才能被使用
+    final(最终类)
+        这个类不可能有子类
+    static(静态变量)
+        不属于任何一个类的具体对象，任何一个类的对象访问时，取到的值是相同的。
+    
+自增/自减
+    如果在变量后面，则执行了这个语句之后，再使自己加1
+    int x = 5;
+    int y = x++;
+    y = 5;
+    如果在变量前面，则是先使自己加1，然后再执行这个语句
+    int x = 5;
+    int y = x++;
+    y = 6;

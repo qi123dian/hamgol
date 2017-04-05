@@ -1,0 +1,25 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body:before {
+    background-image: url(../images/tswirls.png), -webkit-linear-gradient(70deg, #eafa52 0%, #ff77fd 100%);
+    background-image: url(../images/tswirls.png), linear-gradient(20deg, #eafa52 0%, #ff77fd 100%);
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.main-cls {
+    
+}
